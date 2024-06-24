@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Miguel Pratas e Manuel Brenha">
+    <meta name="description" content="Projeto Final 'KUANTOS KERES'">
+    <meta name="keywords" content="website, html, css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="registostyle.css">
+    <title>REGISTO Site</title>
+</head>
+<body class="registo">
+    <div class="container">
+        <header class="registo-header">
+            <h1>KUANTOS KERES</h1>
+        </header>
+        <main class="registo-formulario">
+                <h2>Faça o seu registo!</h2>
+                <input type="text" placeholder="Insira o seu nome" required>
+                <input type="email" placeholder="Insira o seu mail" required>
+                <input type="tel" placeholder="Insira o seu número de telemóvel" required>
+                <input type="text" placeholder="Insira a sua morada" required>
+                <input type="password" placeholder="Crie uma password" required>
+                <input type="password" placeholder="Confirme a password" required>
+                <p class="requisito">*A password deve conter pelo menos 10 caracteres, uma letra maiúscula e um número.</p>
+                <div class="checkbox-container">
+                    <label>
+                        <input type="checkbox">
+                        Desejo receber informações e promoções no meu email
+                    </label>
+                    <label>
+                        <input type="checkbox" required>
+                        Li e aceito os termos e condições
+                    </label>
+                </div>
+                <button type="submit">Registar</button>
+        </main>
+    </div>
+</body>
+</html>

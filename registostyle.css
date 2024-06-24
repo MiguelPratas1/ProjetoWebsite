@@ -1,0 +1,82 @@
+.registo{
+    font-family: Rubik, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.registo-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registo-header h1{
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.registo-formulario{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registo-formulario h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.registo-formulario input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.requisito{
+    font-size: 12px;
+    color: #666;
+    margin-top: -4px;
+    margin-bottom: 15px;
+}
+
+.checkbox-container{
+    margin-bottom: 20px;
+}
+
+.checkbox-container label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.registo-formulario button{
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registo-formulario button:hover{
+    background-color: rgb(107, 64, 175);
+}

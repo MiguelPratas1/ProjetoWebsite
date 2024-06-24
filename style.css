@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Rubik, sans-serif;
+    background-color: white;
+}
+  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    height: 120px;
+}
+  
+header h1{
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+}
+  
+header input{
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    border-color: white;
+}
+  
+header .botoes a{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+}
+  
+header .botoes a:hover{
+    background-color: #f0f0f0;
+}
+  
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+
+main img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+  
+main p{
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.newsletter{
+    background-color: rgb(205, 185, 224);
+    height:200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter .texto-newsletter p{
+    color: white;
+    margin-left: -10%;
+    font-size: 1.3rem;
+}
+
+form input{
+    display: inline-block;
+    height: 50px;
+    width: 550px;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+form input[type="email"]{
+    width: 200px;
+    border-radius: 5%;
+    background-color: white;
+}
+
+form input[type="submit"]{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(74, 36, 134);
+    margin-left: -1%;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    height: 120px;
+}
+
+footer p{
+    font-size: 1rem;
+    margin-left: 30px;
+}
+
+.icon-redessociais h2{
+    font-size: 1.2rem;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.icon-redessociais i{
+    margin: 10px;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: 10px;
+    color:black;
+    position: relative;
+    right: -30px;
+}
